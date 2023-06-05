@@ -1,0 +1,22 @@
+/* BODY */
+
+body {
+    overflow: hidden;
+    height: 100vh !important;
+    background-image: url('../files/bg.jpg');
+    backdrop-filter: blur(5px);
+    background-size: cover;
+}
+
+/* HEADER */
+
+header {
+    margin-bottom: 10%;
+}
+
+/* MAIN */
+
+#foto_main {
+    border-radius: 50%;
+}
+
