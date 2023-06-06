@@ -19,7 +19,7 @@ app.get('/contacto.html', (req, res) => {
 });
 
 app.listen(app.get('port'),()=>{
-  console.log('Server online 0.1');
+  console.log('Server online 0.2');
 })
 
 
