@@ -1,0 +1,32 @@
+{
+  "name": "cv",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "des": "nodemon --exec node src/server.js",
+    "pro": "webpack --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calcifersh/CV.git"
+  },
+  "author": "calcifer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calcifersh/CV/issues"
+  },
+  "homepage": "https://github.com/calcifersh/CV#readme",
+  "dependencies": {
+    "css-loader": "^6.8.1",
+    "express": "^4.18.2",
+    "html-webpack-plugin": "^5.5.1",
+    "nodemon": "^2.0.22",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.85.1",
+    "webpack-dev-middleware": "^6.1.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.3"
+  }
+}
