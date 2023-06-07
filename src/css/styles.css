@@ -20,3 +20,10 @@ header {
     border-radius: 50%;
 }
 
+/* CONTACTO */
+
+.disabled {
+    display: none;
+    visibility: hidden;
+}
+

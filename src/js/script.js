@@ -86,6 +86,24 @@ try {
     FOTO_MAIN.style.border = '2px white solid'
 } catch (style_error) {}
 
+/* CONTACTO */
+
+    function onSubmit(token) {
+        document.getElementById("demo-form").submit();
+    }
+
+
+try {
+    const divformulario = document.getElementById('formulario');
+    const btnConfirmar = document.getElementById('btnconfirmar');
+    const capcha = document.getElementById('capcha');
+    
+    btnConfirmar.addEventListener("click", function() {
+        divformulario.classList.add('disabled');
+        capcha.classList.remove('disabled')
+    });
+}catch(disablederror){}
+
 
 
 
