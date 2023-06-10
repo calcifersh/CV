@@ -6,7 +6,7 @@ module.exports={
     mode: 'development',
     entry: './src/js/index.js',
     output:{
-        path: path.join(__dirname, './src/dist'),
+        path: path.join(__dirname, 'src/dist'),
         filename: 'bundle.js'
     },
     module:{
@@ -19,7 +19,7 @@ module.exports={
     },
     plugins:[
         new htmlWebpackPlugin({
-            template:'src/index.html'
+            template:'src/index.ejs'
         })
     ]
 };

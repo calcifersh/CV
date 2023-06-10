@@ -88,21 +88,15 @@ try {
 
 /* CONTACTO */
 
-    function onSubmit(token) {
-        document.getElementById("demo-form").submit();
-    }
-
-
-try {
-    const divformulario = document.getElementById('formulario');
-    const btnConfirmar = document.getElementById('btnconfirmar');
-    const capcha = document.getElementById('capcha');
+// try {
+//     const divformulario = document.getElementById('formulario');
+//     const btnConfirmar = document.getElementById('btnconfirmar');
     
-    btnConfirmar.addEventListener("click", function() {
-        divformulario.classList.add('disabled');
-        capcha.classList.remove('disabled')
-    });
-}catch(disablederror){}
+    
+//     btnConfirmar.addEventListener("click", function() {
+//         divformulario.classList.add('disabled');
+//     });
+// }catch(disablederror){}
 
 
 
