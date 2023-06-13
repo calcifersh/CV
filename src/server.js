@@ -21,6 +21,10 @@ app.get('/contacto.html', (req, res) => {
   res.sendFile('contacto.html', { root: __dirname + '/public' });
 });
 
+app.get('/sobremi.html', (req, res) => {
+  res.sendFile('sobremi.html', { root: __dirname + '/public' });
+});
+
 app.listen(app.get('port'),()=>{
   console.log('Server online 0.2');
 })
