@@ -79,3 +79,13 @@ header {
     100%{
         box-shadow: inset 0px 0px 0px 30px #7ac142
     }}
+
+/* EXPERIENCIA */
+
+#card_alma2, #card_froiz {
+    border: 1px white solid;
+}
+
+#logo_alma2, #logo_froiz {
+    border-radius: 50%;
+}

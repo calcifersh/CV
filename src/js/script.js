@@ -86,6 +86,8 @@ try {
     FOTO_MAIN.style.border = '2px white solid'
 } catch (style_error) {}
 
+
+
 /* CONTACTO */
 
 // try {
